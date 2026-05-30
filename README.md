@@ -6,9 +6,9 @@ backend-engineering-handbook/
 ├── 00-foundations/
 │   ├── 01-computer-fundamentals.md
 │   ├── 02-concurrency.md
-│   ├── 03-data-structures.md
-│   ├── 04-algorithms.md
-│   └── 05-operating-system-fundamentals.md
+│   ├── 03-operating-system-fundamentals.md
+│   ├── 04-data-structures.md
+│   └── 05-algorithms.md
 │
 ├── 01-programming-fundamentals/
 │   ├── 01-oop.md
