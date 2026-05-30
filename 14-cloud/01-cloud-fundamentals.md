@@ -14,48 +14,81 @@
 ## Learning Objectives
 
 - Understand cloud computing fundamentals
-- Understand cloud service models
-- Understand cloud deployment models
+- Understand why cloud platforms exist
+- Understand cloud service and deployment models
+- Build a foundation for modern infrastructure
 
 ---
 
 # What is Cloud Computing?
 
 Subtopics:
-- On-Premise Infrastructure
+- Traditional Infrastructure
 - Cloud Infrastructure
-- Shared Responsibility Model
+- On-Demand Computing
+- Resource Virtualization
 
 Resources:
 
 Primary:
 - AWS Cloud Practitioner Essentials
+- Google Cloud Fundamentals
 
 Interview Questions:
 - What is cloud computing?
-- Why do companies move to the cloud?
+- Why did companies move from on-premise infrastructure to cloud platforms?
+
+---
+
+# Why Cloud Exists
+
+Subtopics:
+- Hardware Procurement Challenges
+- Infrastructure Management
+- Elastic Scaling
+- Global Availability
+- Pay-As-You-Go Pricing
+
+Interview Questions:
+- What problems does cloud computing solve?
 
 ---
 
 # Characteristics of Cloud Computing
 
 Subtopics:
-- On-Demand Resources
-- Elasticity
-- Scalability
-- Pay-As-You-Go
+- On-Demand Self Service
+- Broad Network Access
+- Resource Pooling
+- Rapid Elasticity
+- Measured Service
 
 Interview Questions:
-- What makes cloud different from traditional infrastructure?
+- What are the key characteristics of cloud computing?
 
 ---
 
 # Service Models
 
 Subtopics:
-- IaaS
-- PaaS
-- SaaS
+- Infrastructure as a Service (IaaS)
+- Platform as a Service (PaaS)
+- Software as a Service (SaaS)
+
+Examples:
+
+IaaS:
+- AWS EC2
+- Azure Virtual Machines
+
+PaaS:
+- Heroku
+- Google App Engine
+
+SaaS:
+- Gmail
+- Salesforce
+- Slack
 
 Interview Questions:
 - IaaS vs PaaS vs SaaS?
@@ -75,14 +108,78 @@ Interview Questions:
 
 ---
 
+# Virtualization
+
+Subtopics:
+- Hypervisors
+- Virtual Machines
+- Resource Isolation
+
+Interview Questions:
+- What is virtualization?
+- Why is virtualization important for cloud computing?
+
+---
+
+# Containers vs Virtual Machines
+
+Subtopics:
+- Virtual Machines
+- Containers
+- Resource Efficiency
+- Startup Time
+
+Interview Questions:
+- Containers vs Virtual Machines?
+
+---
+
 # Shared Responsibility Model
 
 Subtopics:
 - Cloud Provider Responsibilities
 - Customer Responsibilities
 
+Examples:
+
+Provider:
+- Physical Hardware
+- Networking Infrastructure
+- Data Centers
+
+Customer:
+- Applications
+- Data
+- Access Control
+
 Interview Questions:
 - What is the Shared Responsibility Model?
+
+---
+
+# Cloud Architecture Principles
+
+Subtopics:
+- Scalability
+- Reliability
+- Fault Tolerance
+- Automation
+- Elasticity
+
+Interview Questions:
+- Why is automation important in cloud environments?
+
+---
+
+# Cloud Providers
+
+Subtopics:
+- AWS
+- Microsoft Azure
+- Google Cloud Platform
+
+Interview Questions:
+- What are the major cloud providers?
 
 ---
 
@@ -91,4 +188,7 @@ Interview Questions:
 - IaaS
 - PaaS
 - SaaS
+- Virtualization
+- Containers vs VMs
 - Shared Responsibility Model
+- Elasticity
