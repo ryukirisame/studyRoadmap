@@ -13,19 +13,22 @@
 
 ## Learning Objectives
 
-- Understand DevOps culture and practices
-- Understand software delivery lifecycle
-- Learn collaboration between development and operations
+- Understand what DevOps is and why it exists
+- Understand the software delivery lifecycle
+- Learn the core principles of modern DevOps
+- Understand how development and operations work together
+- Build a foundation for CI/CD, IaC, and GitOps
 
 ---
 
 # What is DevOps?
 
 Subtopics:
-- Development
-- Operations
-- Collaboration
-- Automation
+- Definition of DevOps
+- Development vs Operations
+- Collaboration Culture
+- Shared Ownership
+- Automation First Mindset
 
 Resources:
 
@@ -36,6 +39,7 @@ Primary:
 Interview Questions:
 - What is DevOps?
 - Why was DevOps introduced?
+- Is DevOps a team, a role, or a culture?
 
 ---
 
@@ -45,10 +49,30 @@ Subtopics:
 - Slow Releases
 - Manual Deployments
 - Environment Drift
-- Communication Gaps
+- Operational Silos
+- Lack of Feedback Loops
 
 Interview Questions:
-- What problems does DevOps solve?
+- What problems existed before DevOps?
+- Why were traditional software delivery models slow?
+
+---
+
+# Software Delivery Lifecycle
+
+Subtopics:
+- Plan
+- Develop
+- Build
+- Test
+- Release
+- Deploy
+- Operate
+- Monitor
+
+Interview Questions:
+- What stages exist in the software delivery lifecycle?
+- Where does DevOps fit into the lifecycle?
 
 ---
 
@@ -56,47 +80,131 @@ Interview Questions:
 
 Subtopics:
 - Automation
-- Continuous Delivery
-- Feedback Loops
-- Shared Ownership
+- Continuous Improvement
+- Fast Feedback
+- Shared Responsibility
+- Reliability Engineering
 
 Interview Questions:
-- What are the core DevOps principles?
+- What are the core principles of DevOps?
+- Why is automation important?
 
 ---
 
-# Software Delivery Lifecycle
+# CALMS Framework
 
 Subtopics:
-- Development
+- Culture
+- Automation
+- Lean
+- Measurement
+- Sharing
+
+Interview Questions:
+- What is the CALMS framework?
+- Why is culture considered the most important part of DevOps?
+
+---
+
+# Continuous Practices
+
+Subtopics:
+- Continuous Integration (CI)
+- Continuous Delivery (CD)
+- Continuous Deployment
+- Continuous Monitoring
+
+Interview Questions:
+- What are the continuous practices in DevOps?
+- Continuous Delivery vs Continuous Deployment?
+
+---
+
+# Automation
+
+Subtopics:
+- Build Automation
+- Test Automation
+- Deployment Automation
+- Infrastructure Automation
+
+Interview Questions:
+- Why is automation central to DevOps?
+
+---
+
+# Feedback Loops
+
+Subtopics:
+- Developer Feedback
+- Operational Feedback
+- Monitoring Feedback
+- Customer Feedback
+
+Interview Questions:
+- Why are feedback loops important?
+
+---
+
+# DevOps and Reliability
+
+Subtopics:
+- Reliability Engineering
+- Availability
+- Incident Response
+- Operational Excellence
+
+Interview Questions:
+- How are DevOps and Reliability Engineering related?
+
+---
+
+# DevOps Toolchain Overview
+
+Subtopics:
+- Source Control
+- Build Systems
+- CI/CD Systems
+- Artifact Repositories
+- Infrastructure as Code
+- Monitoring Systems
+
+Examples:
+- Git
+- GitHub Actions
+- Jenkins
+- Nexus
+- Terraform
+- Prometheus
+
+Interview Questions:
+- What tools are commonly used in DevOps?
+
+---
+
+# DevOps Lifecycle
+
+Subtopics:
+- Code
 - Build
 - Test
+- Release
 - Deploy
+- Operate
 - Monitor
 
 Interview Questions:
-- What does a typical delivery pipeline look like?
-
----
-
-# Infrastructure as Code
-
-Subtopics:
-- Infrastructure Automation
-- Configuration Management
-
-Examples:
-- Terraform
-- CloudFormation
-
-Interview Questions:
-- What is Infrastructure as Code?
+- Explain the DevOps lifecycle.
 
 ---
 
 # Most Important Topics
 
-- DevOps
+- DevOps Culture
 - Automation
-- CI/CD
-- Infrastructure as Code
+- Software Delivery Lifecycle
+- CALMS Framework
+- Continuous Integration
+- Continuous Delivery
+- Feedback Loops
+- Shared Ownership
